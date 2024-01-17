@@ -1,0 +1,69 @@
+ body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+
+
+
+
+.logo img {
+    height: 3rem;
+    width: 3rem;
+  }
+
+  .logo1 {
+    display: inline-block;
+  }
+
+  .navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 0.2rem;
+  }
+
+  .navbar-toggler {
+    border: none;
+  }
+
+
+  .main-body {
+    background-color: #f0f0f0; /* Grey background color */
+    padding: 20px; /* Add padding for better readability */
+    margin: 0;
+    
+  }
+
+  .center-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+     /* Set the height to 100% of the viewport height */
+  }
+
+
+  .buttonsfoo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 1rem;
+  }
+
+
+  .search_bar{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    
+  }
+
+  .box{
+    width: 5rem;;
+    height: 6rem;
+    /* background-color: blanchedalmond; */
+    /* background: url("https://th.bing.com/th/id/OIP.rZSMaGZgkwKYn3J2qpx-MAHaE8?rs=1&pid=ImgDetMain");  */
+   padding: 1rem;
+    margin: 2rem;
+    
+    
+  }
