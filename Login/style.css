@@ -3,54 +3,25 @@ body {
     font-family: Arial, sans-serif;
   }
 
-  .navbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px 20px;
-    background-color: white;
-    
+
+
+  .logo img {
+    height: 3rem;
+    width: 3rem;
   }
 
-  .logo {
-    font-size: 20px;
+  .logo1 {
+    display: inline-block;
+  }
+
+  .navbar-brand {
+    font-size: 1.5rem;
     font-weight: bold;
+    margin: 0.2rem;
   }
 
-  .pages {
-    display: flex;
-    margin-left: 35%;
-  }
-
-  .page {
-    margin-right: 20px;
-    color: #18A0FB;
-    text-decoration: none;
-  }
-
-  .buttons {
-    display: flex;
-  }
-
-  .button {
-    margin-right: 10px;
-    padding: 8px 15px;
-    background-color: #18A0FB;
-    color: white;
+  .navbar-toggler {
     border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    text-decoration: none;
-  }
-  .button2 {
-    margin-right: 10px;
-    padding: 8px 15px;
-    background-color: white;
-    color: #18A0FB;
-    border: solid;
-    border-radius: 5px;
-    cursor: pointer;
-    text-decoration: none;
   }
 
 
@@ -126,29 +97,6 @@ body {
   .buttonsfoo {
     display: flex;
     flex-direction: column;
-    
-  }
-
-  .buttonf1 {
-    margin-right: 10px;
-    padding: 8px 15px;
-    background-color: #18A0FB;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    text-decoration: none;
-    margin-bottom: 1rem;
     align-items: center;
-    justify-items: center;
-  }
-  .buttonf2 {
-    margin-right: 10px;
-    padding: 8px 15px;
-    background-color: white;
-    color: #18A0FB;
-    border: solid;
-    border-radius: 5px;
-    cursor: pointer;
-    text-decoration: none;
+    margin-bottom: 1rem;
   }
